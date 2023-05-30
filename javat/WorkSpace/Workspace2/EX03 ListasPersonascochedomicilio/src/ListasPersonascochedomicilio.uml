@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="__2jSsOLTEe2p9Kt72W4Ywg" name="ListasPersonascochedomicilio">
+    <eAnnotations xmi:id="_AtloYOLUEe2p9Kt72W4Ywg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_AtmPcOLUEe2p9Kt72W4Ywg" source="codegen">
+        <details xmi:id="_AtmPceLUEe2p9Kt72W4Ywg" key="codegenDirectory" value="/ListasPersonascochedomicilio/src"/>
+        <details xmi:id="_Bkn-EOLUEe2p9Kt72W4Ywg" key="AssociatedSourceCode" value="/ListasPersonascochedomicilio/src/Auto.java;2734053789/1;/ListasPersonascochedomicilio/src/Domicilio.java;3900026664/1;/ListasPersonascochedomicilio/src/CrearObjetos.java;3498334726/1;/ListasPersonascochedomicilio/src/ClaseMain.java;4123867779/1;/ListasPersonascochedomicilio/src/Menu.java;3060468631/1;/ListasPersonascochedomicilio/src/Persona.java;3416210733/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_BKFXIOLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_BKFXIeLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_BKF-MOLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_BKGlQOLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_BKHMUOLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_BKHMUeLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_BKHMUuLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_BKHMU-LUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_BKJBgOLUEe2p9Kt72W4Ywg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BIqa0OLUEe2p9Kt72W4Ywg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BIrB4OLUEe2p9Kt72W4Ywg" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_BQuKoOLUEe2p9Kt72W4Ywg" name="Console"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BIusQOLUEe2p9Kt72W4Ywg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_BQpSIOLUEe2p9Kt72W4Ywg" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BJ9bUOLUEe2p9Kt72W4Ywg" name="Auto">
+      <ownedComment xmi:id="_BTcHcOLUEe2p9Kt72W4Ywg">
+        <body>@author Tomás&#xD;
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_BRsbAOLUEe2p9Kt72W4Ywg" name="titular" type="_BLlzAOLUEe2p9Kt72W4Ywg" association="_BTg_8OLUEe2p9Kt72W4Ywg"/>
+      <ownedAttribute xmi:id="_BRx6kOLUEe2p9Kt72W4Ywg" name="coConductor" type="_BLlzAOLUEe2p9Kt72W4Ywg" association="_BTkDQOLUEe2p9Kt72W4Ywg"/>
+      <ownedAttribute xmi:id="_BR0W0OLUEe2p9Kt72W4Ywg" name="matricula">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BR094OLUEe2p9Kt72W4Ywg" name="marca">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BS0cYOLUEe2p9Kt72W4Ywg" name="Auto" specification="_BQHtsOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BS0cYeLUEe2p9Kt72W4Ywg" name="titular" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BS0cYuLUEe2p9Kt72W4Ywg" name="coConductor" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BS0cY-LUEe2p9Kt72W4Ywg" name="matricula">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BS0cZOLUEe2p9Kt72W4Ywg" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BS0cZeLUEe2p9Kt72W4Ywg" type="_BJ9bUOLUEe2p9Kt72W4Ywg" direction="return"/>
+        <language>java</language>
+        <body>this.titular = titular;&#xD;
+		this.coConductor = coConductor;&#xD;
+		this.matricula = matricula;&#xD;
+		this.marca = marca;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_BQHtsOLUEe2p9Kt72W4Ywg" name="Auto" method="_BS0cYOLUEe2p9Kt72W4Ywg">
+        <eAnnotations xmi:id="_BQI70OLUEe2p9Kt72W4Ywg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_BQI70eLUEe2p9Kt72W4Ywg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_BQHtseLUEe2p9Kt72W4Ywg" name="titular" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BQIUwOLUEe2p9Kt72W4Ywg" name="coConductor" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BQIUweLUEe2p9Kt72W4Ywg" name="matricula">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BQIUwuLUEe2p9Kt72W4Ywg" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BQI70uLUEe2p9Kt72W4Ywg" type="_BJ9bUOLUEe2p9Kt72W4Ywg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BKVOwOLUEe2p9Kt72W4Ywg" name="Domicilio">
+      <ownedComment xmi:id="_BTlRYOLUEe2p9Kt72W4Ywg">
+        <body>@author Tomas&#xD;
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_BR3aIOLUEe2p9Kt72W4Ywg" name="calle">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BR5PUOLUEe2p9Kt72W4Ywg" name="altura">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BR52YOLUEe2p9Kt72W4Ywg" name="cp">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BR6dcOLUEe2p9Kt72W4Ywg" name="pais">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BS-NYOLUEe2p9Kt72W4Ywg" name="Domicilio" specification="_BKaHQOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BS-0cOLUEe2p9Kt72W4Ywg" name="calle">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BS-0ceLUEe2p9Kt72W4Ywg" name="altura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BS-0cuLUEe2p9Kt72W4Ywg" name="cp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BS-0c-LUEe2p9Kt72W4Ywg" name="pais">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BS-0dOLUEe2p9Kt72W4Ywg" type="_BKVOwOLUEe2p9Kt72W4Ywg" direction="return"/>
+        <language>java</language>
+        <body>this.calle = calle.toLowerCase();&#xD;
+		this.altura = altura;&#xD;
+		this.cp = cp.toUpperCase();&#xD;
+		this.pais = pais.toLowerCase();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_BKaHQOLUEe2p9Kt72W4Ywg" name="Domicilio" method="_BS-NYOLUEe2p9Kt72W4Ywg">
+        <eAnnotations xmi:id="_BKfm0OLUEe2p9Kt72W4Ywg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_BKfm0eLUEe2p9Kt72W4Ywg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_BKauUOLUEe2p9Kt72W4Ywg" name="calle">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKbVYOLUEe2p9Kt72W4Ywg" name="altura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKb8cOLUEe2p9Kt72W4Ywg" name="cp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKb8ceLUEe2p9Kt72W4Ywg" name="pais">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKgN4OLUEe2p9Kt72W4Ywg" type="_BKVOwOLUEe2p9Kt72W4Ywg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BKkfUOLUEe2p9Kt72W4Ywg" name="CrearObjetos">
+      <ownedComment xmi:id="_BTlRYeLUEe2p9Kt72W4Ywg">
+        <body>@author Tomás&#xD;
+ *</body>
+      </ownedComment>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BS_bgOLUEe2p9Kt72W4Ywg" name="crearPersona_Domicilio" specification="_BKowwOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTACkOLUEe2p9Kt72W4Ywg" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTACkeLUEe2p9Kt72W4Ywg" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTACkuLUEe2p9Kt72W4Ywg" name="calle">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTACk-LUEe2p9Kt72W4Ywg" name="cp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTAClOLUEe2p9Kt72W4Ywg" name="pais">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTACleLUEe2p9Kt72W4Ywg" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTACluLUEe2p9Kt72W4Ywg" name="altura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Domicilio domicilio = new Domicilio(calle, altura , cp, pais);&#xD;
+		Persona persona = new Persona(nombre, apellido , edad, domicilio);&#xD;
+		ClaseMain.persona(persona);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTB3wOLUEe2p9Kt72W4Ywg" name="crearAuto" specification="_BQL_IOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTB3weLUEe2p9Kt72W4Ywg" name="titular" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BTB3wuLUEe2p9Kt72W4Ywg" name="coConductor" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BTB3w-LUEe2p9Kt72W4Ywg" name="matricula">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTB3xOLUEe2p9Kt72W4Ywg" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Auto auto = new Auto(titular, coConductor, matricula, marca);&#xD;
+		ClaseMain.auto(auto);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_BKowwOLUEe2p9Kt72W4Ywg" name="crearPersona_Domicilio" method="_BS_bgOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BKowweLUEe2p9Kt72W4Ywg" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKowwuLUEe2p9Kt72W4Ywg" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKpX0OLUEe2p9Kt72W4Ywg" name="calle">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKpX0eLUEe2p9Kt72W4Ywg" name="cp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKpX0uLUEe2p9Kt72W4Ywg" name="pais">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKp-4OLUEe2p9Kt72W4Ywg" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BKp-4eLUEe2p9Kt72W4Ywg" name="altura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BQL_IOLUEe2p9Kt72W4Ywg" name="crearAuto" method="_BTB3wOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BQL_IeLUEe2p9Kt72W4Ywg" name="titular" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BQMmMOLUEe2p9Kt72W4Ywg" name="coConductor" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BQMmMeLUEe2p9Kt72W4Ywg" name="matricula">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BQMmMuLUEe2p9Kt72W4Ywg" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BKvecOLUEe2p9Kt72W4Ywg" name="ClaseMain">
+      <ownedComment xmi:id="_BTlRYuLUEe2p9Kt72W4Ywg">
+        <body>@author Tomas&#xD;
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_BR7rkOLUEe2p9Kt72W4Ywg" name="personas" visibility="package" isStatic="true" type="_BQpSIOLUEe2p9Kt72W4Ywg" association="_BT2XIOLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BR_V8OLUEe2p9Kt72W4Ywg" value="new ArrayList &lt;>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSBLIOLUEe2p9Kt72W4Ywg" name="domicilios" visibility="package" isStatic="true" type="_BQpSIOLUEe2p9Kt72W4Ywg" association="_BT7PoOLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSEOceLUEe2p9Kt72W4Ywg" value="new ArrayList &lt;>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSGDoOLUEe2p9Kt72W4Ywg" name="autos" visibility="package" isStatic="true" type="_BQpSIOLUEe2p9Kt72W4Ywg" association="_BUDLcOLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSJG8OLUEe2p9Kt72W4Ywg" value="new ArrayList &lt;>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSK8IOLUEe2p9Kt72W4Ywg" name="consola" visibility="package" isStatic="true" type="_BQuKoOLUEe2p9Kt72W4Ywg" association="_BUFnsOLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSLjMOLUEe2p9Kt72W4Ywg" value="System.console()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSMxUOLUEe2p9Kt72W4Ywg" name="menu" visibility="package" isStatic="true" type="_BLMxcOLUEe2p9Kt72W4Ywg" association="_BUKgMOLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSMxUeLUEe2p9Kt72W4Ywg" value="new Menu()"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTFiIOLUEe2p9Kt72W4Ywg" name="main" specification="_BK1lEOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTGJMOLUEe2p9Kt72W4Ywg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BTGJMeLUEe2p9Kt72W4Ywg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;|---------MENU---------|\n|1- Ingresar Personas  |\n|2- Agregar Coches     |\n|3- Imprimir           |\n|4- Salir              |\n|----------------------|\n&quot;);&#xD;
+		String eleccionStr = consola.readLine();&#xD;
+		int eleccion = Integer.parseInt(eleccionStr);&#xD;
+		menu.menuInicial(eleccion);&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTHXUOLUEe2p9Kt72W4Ywg" name="persona" specification="_BQPpgOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTHXUeLUEe2p9Kt72W4Ywg" name="persona" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>personas.add(persona);&#xD;
+	  domicilio(persona.getDomiciolio());&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTH-YOLUEe2p9Kt72W4Ywg" name="domicilio" specification="_BQQ3oOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTH-YeLUEe2p9Kt72W4Ywg" name="domicilio" type="_BKVOwOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>domicilios.add(domicilio);&#xD;
+		main2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTIlcOLUEe2p9Kt72W4Ywg" name="personaPrint" specification="_BK4BUOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>int a = 0;&#xD;
+		while(a &lt; personas.size()) {&#xD;
+			System.out.println(&quot;Estos son los datos de la persona con el identificador de: &quot;+a+&quot; &quot;+personas.get(a).getNombre());&#xD;
+			a++;&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTJMgOLUEe2p9Kt72W4Ywg" name="auto" specification="_BQResOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTJMgeLUEe2p9Kt72W4Ywg" name="auto" type="_BJ9bUOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>autos.add(auto);&#xD;
+		main2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTJzkOLUEe2p9Kt72W4Ywg" name="imprimirArrayPersonasParaAuto" specification="_BK5PcOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>int a = 0;&#xD;
+		while(a &lt; personas.size()){&#xD;
+			System.out.println(&quot;La persona llamada &quot;+personas.get(a).getNombre()+&quot; tiene el ID &quot;+a);&#xD;
+			a++;&#xD;
+		}&#xD;
+		System.out.println(&quot;Seleccione a la persona titular del auto (Utilizando el ID) &quot;);&#xD;
+		String eleccionDePersonaAutoStr1 = consola.readLine();&#xD;
+		int eleccionDePersonaAuto1 = Integer.parseInt(eleccionDePersonaAutoStr1);&#xD;
+		&#xD;
+		System.out.println(&quot;Seleccione a la persona que es Co-titular del auto (si elege la opcion anterior (el ID), el cotitular estara en blanco, su opcion anteioro fue &quot;+eleccionDePersonaAuto1+&quot; )&quot;);&#xD;
+		String eleccionDePersonaAutoStr2 = consola.readLine();&#xD;
+		int eleccionDePersonaAuto2 = Integer.parseInt(eleccionDePersonaAutoStr2);&#xD;
+		int c = 0;&#xD;
+		String cc = &quot;&quot;;&#xD;
+		Domicilio domiciolioTest = new Domicilio(cc, c, cc, cc);&#xD;
+		Persona personaTest = new Persona(cc, cc, c, domiciolioTest);&#xD;
+		if(eleccionDePersonaAuto2 == eleccionDePersonaAuto1) {&#xD;
+			menu.menuAuto(personas.get(eleccionDePersonaAuto1), personaTest);&#xD;
+		}else {&#xD;
+			&#xD;
+			menu.menuAuto(personas.get(eleccionDePersonaAuto1), personas.get(eleccionDePersonaAuto2));&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTJzkeLUEe2p9Kt72W4Ywg" name="main2" specification="_BK52gOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>System.out.println(&quot;|---------MENU---------|\n|1- Ingresar Personas  |\n|2- Agregar Coches     |\n|3- Listar Todo        |\n|4- Salir              |\n|----------------------|\n&quot;);&#xD;
+		String eleccionStr = consola.readLine();&#xD;
+		int eleccion = Integer.parseInt(eleccionStr);&#xD;
+		menu.menuInicial(eleccion);&#xD;
+		</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTJzkuLUEe2p9Kt72W4Ywg" name="pasarPersona" specification="_BK6dkOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>menu.imnprimirInformacionPersonal(autos);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTKaoOLUEe2p9Kt72W4Ywg" name="imprimirAutoPorPais" specification="_BK7EoOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>menu.imprimirAutoPorPais(autos);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTKaoeLUEe2p9Kt72W4Ywg" name="pasarPersonas2" specification="_BK7rsOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>menu.imprimirPersonasConSinCoche(personas);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_BK1lEOLUEe2p9Kt72W4Ywg" name="main" isStatic="true" method="_BTFiIOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BK2MIOLUEe2p9Kt72W4Ywg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BK3aQOLUEe2p9Kt72W4Ywg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BK4BUOLUEe2p9Kt72W4Ywg" name="personaPrint" isStatic="true" method="_BTIlcOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BK5PcOLUEe2p9Kt72W4Ywg" name="imprimirArrayPersonasParaAuto" isStatic="true" method="_BTJzkOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BK52gOLUEe2p9Kt72W4Ywg" name="main2" isStatic="true" method="_BTJzkeLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BK6dkOLUEe2p9Kt72W4Ywg" name="pasarPersona" isStatic="true" method="_BTJzkuLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BK7EoOLUEe2p9Kt72W4Ywg" name="imprimirAutoPorPais" isStatic="true" method="_BTKaoOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BK7rsOLUEe2p9Kt72W4Ywg" name="pasarPersonas2" isStatic="true" method="_BTKaoeLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BQPpgOLUEe2p9Kt72W4Ywg" name="persona" isStatic="true" method="_BTHXUOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BQPpgeLUEe2p9Kt72W4Ywg" name="persona" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BQQ3oOLUEe2p9Kt72W4Ywg" name="domicilio" isStatic="true" method="_BTH-YOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BQQ3oeLUEe2p9Kt72W4Ywg" name="domicilio" type="_BKVOwOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BQResOLUEe2p9Kt72W4Ywg" name="auto" isStatic="true" method="_BTJMgOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BQSFwOLUEe2p9Kt72W4Ywg" name="auto" type="_BJ9bUOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BLMxcOLUEe2p9Kt72W4Ywg" name="Menu">
+      <ownedAttribute xmi:id="_BSPNkOLUEe2p9Kt72W4Ywg" name="consola" visibility="package" isStatic="true" type="_BQuKoOLUEe2p9Kt72W4Ywg" association="_BUP_wOLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSP0oOLUEe2p9Kt72W4Ywg" value="System.console()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSRp0OLUEe2p9Kt72W4Ywg" name="autos" visibility="private" type="_BQpSIOLUEe2p9Kt72W4Ywg" association="_BUWGYeLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSUGEeLUEe2p9Kt72W4Ywg" value="new ArrayList&lt;>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSVUMOLUEe2p9Kt72W4Ywg" name="personas" visibility="private" type="_BQpSIOLUEe2p9Kt72W4Ywg" association="_BUaX0eLUEe2p9Kt72W4Ywg">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BSXJYOLUEe2p9Kt72W4Ywg" value="new ArrayList&lt;>()"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTM24OLUEe2p9Kt72W4Ywg" name="menuInicial" specification="_BLQb0OLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTM24eLUEe2p9Kt72W4Ywg" name="respuesta">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if(respuesta == 1){ //crear personas&#xD;
+			menuPersona();&#xD;
+		}&#xD;
+		else if(respuesta == 2){//crear autos&#xD;
+			ClaseMain.imprimirArrayPersonasParaAuto();&#xD;
+		}&#xD;
+		else if(respuesta == 3){//imprimir todo&#xD;
+			imprimirTodo();&#xD;
+		}&#xD;
+		else if(respuesta == 4){//salir&#xD;
+			System.exit(0);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTOFAOLUEe2p9Kt72W4Ywg" name="imprimirPersonasConSinCoche" specification="_BLRp8OLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>ClaseMain.pasarPersonas2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTOFAeLUEe2p9Kt72W4Ywg" name="imprimirPersonasConSinCoche" specification="_BQ0RQOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTOFAuLUEe2p9Kt72W4Ywg" name="personas" type="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>this.personas = personas;&#xD;
+		imprimirPersonasSinCcC();&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTPTIOLUEe2p9Kt72W4Ywg" name="imprimirPersonasSinCcC" specification="_BLS4EOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>int a = 0;&#xD;
+		while(a &lt; personas.size()) {&#xD;
+			System.out.println(&quot;La persona llamada &quot;+personas.get(a).getNombre()+&quot; con el apellido &quot;+personas.get(a).getApellido()+&quot; con &quot;+personas.get(a).getEdad()+&quot; años, vive en &quot;+personas.get(a).getDomiciolio().getCalle()+&quot;, &quot;+personas.get(a).getDomiciolio().getAltura()+&quot;, codigo postal: &quot;+personas.get(a).getDomiciolio().getCp()+&quot;, del pais &quot;+personas.get(a).getDomiciolio().getPais());&#xD;
+			a++;&#xD;
+		}&#xD;
+		ClaseMain.main2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTP6MOLUEe2p9Kt72W4Ywg" name="menuPersona" specification="_BLTfIOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>System.out.println(&quot;Ingrese los datos de la persona incluyendo su informacion personal segun se le pida.&quot;);&#xD;
+		System.out.print(&quot;Ingrese el nombre: &quot;);&#xD;
+		String nombre = consola.readLine();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese el apellido: &quot;);&#xD;
+		String apellido = consola.readLine();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese la edad: &quot;);&#xD;
+		String edadStr = consola.readLine();&#xD;
+		int edad = Integer.parseInt(edadStr);&#xD;
+		ingresarDomicilio(nombre, apellido, edad);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTSWcOLUEe2p9Kt72W4Ywg" name="ingresarDomicilio" specification="_BLUtQOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTSWceLUEe2p9Kt72W4Ywg" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTSWcuLUEe2p9Kt72W4Ywg" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTSWc-LUEe2p9Kt72W4Ywg" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>CrearObjetos co = new CrearObjetos();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese la direccion de &quot;+nombre);&#xD;
+		&#xD;
+		System.out.print(&quot;\n Ingrese la calle: &quot;);&#xD;
+		String calle = consola.readLine();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese la altura o direccion (el numero): &quot;);&#xD;
+		String alturaoStr = consola.readLine();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese el codigo postal: &quot;);&#xD;
+		String cp = consola.readLine();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese el pais de residencia: &quot;);&#xD;
+		String pais = consola.readLine();&#xD;
+		int altura = Integer.parseInt(alturaoStr);&#xD;
+		co.crearPersona_Domicilio(nombre, apellido, calle, cp, pais, edad, altura);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTUysOLUEe2p9Kt72W4Ywg" name="menuAuto" specification="_BQXlUOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTUyseLUEe2p9Kt72W4Ywg" name="persona1" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BTUysuLUEe2p9Kt72W4Ywg" name="persona2" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>System.out.print(&quot;Ingrese la matricula del coche: &quot;);&#xD;
+		String matricula = consola.readLine();&#xD;
+		&#xD;
+		System.out.print(&quot;Ingrese la marca del coche: &quot;);&#xD;
+		String marca = consola.readLine();&#xD;
+		Auto auto = new Auto (persona1, persona2, matricula, marca);&#xD;
+		ClaseMain.auto(auto);&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTVZwOLUEe2p9Kt72W4Ywg" name="imprimirTodo" specification="_BLXJgOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>System.out.print(&quot;¿Que desea imprimir?: \n1-Imprimir personas con coche: \n2-Imprimir a los coches y el pais al que pertenecen: \n3-Imprimir a las personas que tienen o no un coche: \n4-Ir al menu\n5-Salir del programa: &quot;);&#xD;
+		String eleccionStr = consola.readLine();&#xD;
+		int respuesta = Integer.parseInt(eleccionStr);&#xD;
+		if(respuesta == 1){ //Imprimir informacio personal&#xD;
+			imnprimirInformacionPersonal();&#xD;
+		}&#xD;
+		else if(respuesta == 2){//Imprimir informacion de coches por pais&#xD;
+			imprimirAutoPorPais();&#xD;
+		}&#xD;
+		else if(respuesta == 3){//imprimir personas ccon o sin coche&#xD;
+			imprimirPersonasConSinCoche();&#xD;
+			&#xD;
+		}else if(respuesta == 5){//salir&#xD;
+			System.exit(0);&#xD;
+			&#xD;
+		}else if(respuesta == 4){//menu2&#xD;
+			ClaseMain.main2();&#xD;
+		}&#xD;
+			System.out.println(&quot;Al no elegir una opcion correcta, sera enviado al menu principal&quot;);&#xD;
+		ClaseMain.main2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTWA0OLUEe2p9Kt72W4Ywg" name="imnprimirInformacionPersonal" specification="_BLXwkOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>ClaseMain.pasarPersona();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTWA0eLUEe2p9Kt72W4Ywg" name="imnprimirInformacionPersonal" specification="_BQ80IOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTWA0uLUEe2p9Kt72W4Ywg" name="autos" type="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>this.autos = autos;&#xD;
+		imprimirAutos();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTWn4OLUEe2p9Kt72W4Ywg" name="imprimirAutos" specification="_BLZlwOLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>int a = 0;&#xD;
+		while(a &lt; autos.size()) {&#xD;
+			System.out.println(&quot;La persona llamada &quot;+autos.get(a).getTitular().getNombre()+&quot; con el apellido &quot;+autos.get(a).getTitular().getApellido()+&quot; con &quot;+autos.get(a).getTitular().getEdad()+&quot; años, vive en &quot;+autos.get(a).getTitular().getDomiciolio().getCalle()+&quot;, &quot;+autos.get(a).getTitular().getDomiciolio().getAltura()+&quot;, codigo postal: &quot;+autos.get(a).getTitular().getDomiciolio().getCp()+&quot;, del pais&quot;+autos.get(a).getTitular().getDomiciolio().getPais());&#xD;
+			a++;&#xD;
+		}&#xD;
+		ClaseMain.main2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTXO8OLUEe2p9Kt72W4Ywg" name="imprimirAutoPorPais" specification="_BLaM0OLUEe2p9Kt72W4Ywg">
+        <language>java</language>
+        <body>ClaseMain.imprimirAutoPorPais();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTXO8eLUEe2p9Kt72W4Ywg" name="imprimirAutoPorPais" specification="_BRJocOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTXO8uLUEe2p9Kt72W4Ywg" name="autos" type="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+        <language>java</language>
+        <body>this.autos = autos;&#xD;
+		int a = 0;&#xD;
+		while(a &lt; autos.size()) {&#xD;
+			String pais1 = autos.get(a).getTitular().getDomiciolio().getPais();&#xD;
+			String pais2 = autos.get(a).getCoConductor().getDomiciolio().getPais();&#xD;
+			if(pais1.equals(pais2)){&#xD;
+				if(autos.get(a).getCoConductor().getNombre() != &quot;&quot; ) {&#xD;
+				System.out.println(&quot;El vehiculo de la marca &quot;+autos.get(a).getMarca() +&quot;, con la matricula &quot;+autos.get(a).getMatricula()+&quot; con el titular &quot;+autos.get(a).getTitular().getNombre()+&quot; &quot;+autos.get(a).getTitular().getApellido()+&quot;\n y su Cotitular llamado &quot;+autos.get(a).getCoConductor().getNombre()+&quot; &quot;+autos.get(a).getCoConductor().getApellido()+&quot;, el vehiculo pertenece al pais de &quot;+autos.get(a).getTitular().getDomiciolio().getPais());&#xD;
+					&#xD;
+				}else {&#xD;
+					System.out.println(&quot;El vehiculo de la marca &quot;+autos.get(a).getMarca() +&quot;, con la matricula &quot;+autos.get(a).getMatricula()+&quot; con el titular &quot;+autos.get(a).getTitular().getNombre()+&quot; &quot;+autos.get(a).getTitular().getApellido()+&quot;, pertenece al pais de &quot;+autos.get(a).getTitular().getDomiciolio().getPais());&#xD;
+				}&#xD;
+			}&#xD;
+			a++;&#xD;
+		}&#xD;
+		ClaseMain.main2();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_BLQb0OLUEe2p9Kt72W4Ywg" name="menuInicial" method="_BTM24OLUEe2p9Kt72W4Ywg">
+        <ownedComment xmi:id="_BTl4cOLUEe2p9Kt72W4Ywg">
+          <body>@param respuesta</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_BLRC4OLUEe2p9Kt72W4Ywg" name="respuesta">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BLRp8OLUEe2p9Kt72W4Ywg" name="imprimirPersonasConSinCoche" method="_BTOFAOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BLS4EOLUEe2p9Kt72W4Ywg" name="imprimirPersonasSinCcC" method="_BTPTIOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BLTfIOLUEe2p9Kt72W4Ywg" name="menuPersona" method="_BTP6MOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BLUtQOLUEe2p9Kt72W4Ywg" name="ingresarDomicilio" method="_BTSWcOLUEe2p9Kt72W4Ywg">
+        <ownedComment xmi:id="_BTl4cuLUEe2p9Kt72W4Ywg">
+          <body>@param nombre&#xD;
+	 * @param apellido&#xD;
+	 * @param edad</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_BLVUUOLUEe2p9Kt72W4Ywg" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BLVUUeLUEe2p9Kt72W4Ywg" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BLVUUuLUEe2p9Kt72W4Ywg" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BLXJgOLUEe2p9Kt72W4Ywg" name="imprimirTodo" method="_BTVZwOLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BLXwkOLUEe2p9Kt72W4Ywg" name="imnprimirInformacionPersonal" method="_BTWA0OLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BLZlwOLUEe2p9Kt72W4Ywg" name="imprimirAutos" method="_BTWn4OLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BLaM0OLUEe2p9Kt72W4Ywg" name="imprimirAutoPorPais" method="_BTXO8OLUEe2p9Kt72W4Ywg"/>
+      <ownedOperation xmi:id="_BQXlUOLUEe2p9Kt72W4Ywg" name="menuAuto" method="_BTUysOLUEe2p9Kt72W4Ywg">
+        <ownedComment xmi:id="_BTmfgOLUEe2p9Kt72W4Ywg">
+          <body>@param persona1&#xD;
+	 * @param persona2</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_BQYzcOLUEe2p9Kt72W4Ywg" name="persona1" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BQYzceLUEe2p9Kt72W4Ywg" name="persona2" type="_BLlzAOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BQ0RQOLUEe2p9Kt72W4Ywg" name="imprimirPersonasConSinCoche" method="_BTOFAeLUEe2p9Kt72W4Ywg">
+        <ownedComment xmi:id="_BTl4ceLUEe2p9Kt72W4Ywg">
+          <body>@param personas</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_BQ0RQeLUEe2p9Kt72W4Ywg" name="personas" type="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BQ80IOLUEe2p9Kt72W4Ywg" name="imnprimirInformacionPersonal" method="_BTWA0eLUEe2p9Kt72W4Ywg">
+        <ownedComment xmi:id="_BTmfgeLUEe2p9Kt72W4Ywg">
+          <body>@param autos</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_BQ80IeLUEe2p9Kt72W4Ywg" name="autos" type="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BRJocOLUEe2p9Kt72W4Ywg" name="imprimirAutoPorPais" method="_BTXO8eLUEe2p9Kt72W4Ywg">
+        <ownedComment xmi:id="_BTmfguLUEe2p9Kt72W4Ywg">
+          <body>@param autos</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_BRK2kOLUEe2p9Kt72W4Ywg" name="autos" type="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BLlzAOLUEe2p9Kt72W4Ywg" name="Persona">
+      <ownedComment xmi:id="_BTnGkOLUEe2p9Kt72W4Ywg">
+        <body>@author Tomás&#xD;
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_BSY-kOLUEe2p9Kt72W4Ywg" name="nombre">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSZloOLUEe2p9Kt72W4Ywg" name="apellido">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSZloeLUEe2p9Kt72W4Ywg" name="edad">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BSaMsOLUEe2p9Kt72W4Ywg" name="domiciolio" type="_BKVOwOLUEe2p9Kt72W4Ywg" association="_BTntoOLUEe2p9Kt72W4Ywg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BTYdEOLUEe2p9Kt72W4Ywg" name="Persona" specification="_BQeTAOLUEe2p9Kt72W4Ywg">
+        <ownedParameter xmi:id="_BTYdEeLUEe2p9Kt72W4Ywg" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTYdEuLUEe2p9Kt72W4Ywg" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTYdE-LUEe2p9Kt72W4Ywg" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BTYdFOLUEe2p9Kt72W4Ywg" name="domiciolio" type="_BKVOwOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BTYdFeLUEe2p9Kt72W4Ywg" type="_BLlzAOLUEe2p9Kt72W4Ywg" direction="return"/>
+        <language>java</language>
+        <body>this.nombre = nombre.toLowerCase();&#xD;
+		this.apellido = apellido.toLowerCase();&#xD;
+		this.edad = edad;&#xD;
+		this.domiciolio = domiciolio;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_BQeTAOLUEe2p9Kt72W4Ywg" name="Persona" method="_BTYdEOLUEe2p9Kt72W4Ywg">
+        <eAnnotations xmi:id="_BQgIM-LUEe2p9Kt72W4Ywg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_BQgINOLUEe2p9Kt72W4Ywg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_BQe6EOLUEe2p9Kt72W4Ywg" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BQgIMOLUEe2p9Kt72W4Ywg" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BQgIMeLUEe2p9Kt72W4Ywg" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BQgIMuLUEe2p9Kt72W4Ywg" name="domiciolio" type="_BKVOwOLUEe2p9Kt72W4Ywg"/>
+        <ownedParameter xmi:id="_BQgvQOLUEe2p9Kt72W4Ywg" type="_BLlzAOLUEe2p9Kt72W4Ywg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BTg_8OLUEe2p9Kt72W4Ywg" name="" memberEnd="_BRsbAOLUEe2p9Kt72W4Ywg _BTi1IOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BTi1IOLUEe2p9Kt72W4Ywg" name="" type="_BJ9bUOLUEe2p9Kt72W4Ywg" association="_BTg_8OLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BTkDQOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BRx6kOLUEe2p9Kt72W4Ywg _BTkqUOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BTkqUOLUEe2p9Kt72W4Ywg" name="" type="_BJ9bUOLUEe2p9Kt72W4Ywg" association="_BTkDQOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BTntoOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BSaMsOLUEe2p9Kt72W4Ywg _BTntoeLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BTntoeLUEe2p9Kt72W4Ywg" name="" type="_BLlzAOLUEe2p9Kt72W4Ywg" association="_BTntoOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BT2XIOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BT2XIeLUEe2p9Kt72W4Ywg _BR7rkOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BT2XIeLUEe2p9Kt72W4Ywg" name="" type="_BKvecOLUEe2p9Kt72W4Ywg" association="_BT2XIOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BT7PoOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BT7PoeLUEe2p9Kt72W4Ywg _BSBLIOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BT7PoeLUEe2p9Kt72W4Ywg" name="" type="_BKvecOLUEe2p9Kt72W4Ywg" association="_BT7PoOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BUDLcOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BUDLceLUEe2p9Kt72W4Ywg _BSGDoOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BUDLceLUEe2p9Kt72W4Ywg" name="" type="_BKvecOLUEe2p9Kt72W4Ywg" association="_BUDLcOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BUFnsOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BUFnseLUEe2p9Kt72W4Ywg _BSK8IOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BUFnseLUEe2p9Kt72W4Ywg" name="" type="_BKvecOLUEe2p9Kt72W4Ywg" association="_BUFnsOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BUKgMOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BUKgMeLUEe2p9Kt72W4Ywg _BSMxUOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BUKgMeLUEe2p9Kt72W4Ywg" name="" type="_BKvecOLUEe2p9Kt72W4Ywg" association="_BUKgMOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BUP_wOLUEe2p9Kt72W4Ywg" name="" memberEnd="_BUP_weLUEe2p9Kt72W4Ywg _BSPNkOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BUP_weLUEe2p9Kt72W4Ywg" name="" type="_BLMxcOLUEe2p9Kt72W4Ywg" association="_BUP_wOLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BUWGYeLUEe2p9Kt72W4Ywg" name="" memberEnd="_BUWGYuLUEe2p9Kt72W4Ywg _BSRp0OLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BUWGYuLUEe2p9Kt72W4Ywg" name="" type="_BLMxcOLUEe2p9Kt72W4Ywg" association="_BUWGYeLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BUaX0eLUEe2p9Kt72W4Ywg" name="" memberEnd="_BUaX0uLUEe2p9Kt72W4Ywg _BSVUMOLUEe2p9Kt72W4Ywg">
+      <ownedEnd xmi:id="_BUaX0uLUEe2p9Kt72W4Ywg" name="" type="_BLMxcOLUEe2p9Kt72W4Ywg" association="_BUaX0eLUEe2p9Kt72W4Ywg"/>
+    </packagedElement>
+    <profileApplication xmi:id="_AtpSwOLUEe2p9Kt72W4Ywg">
+      <eAnnotations xmi:id="_At048OLUEe2p9Kt72W4Ywg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_AuDicOLUEe2p9Kt72W4Ywg" base_Package="__2jSsOLTEe2p9Kt72W4Ywg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_BQruYOLUEe2p9Kt72W4Ywg" base_Element="_BQpSIOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BQwm4OLUEe2p9Kt72W4Ywg" base_Element="_BQuKoOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BQ5w0OLUEe2p9Kt72W4Ywg" genericsValue="Persona" base_Element="_BQ0RQeLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BRHzQOLUEe2p9Kt72W4Ywg" genericsValue="Auto" base_Element="_BQ80IeLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BRbVQOLUEe2p9Kt72W4Ywg" genericsValue="Auto" base_Element="_BRK2kOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BR-H0OLUEe2p9Kt72W4Ywg" genericsValue="Persona" base_Element="_BR7rkOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSAkEOLUEe2p9Kt72W4Ywg" base_Element="_BR7rkOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BSEOcOLUEe2p9Kt72W4Ywg" genericsValue="Domicilio" base_Element="_BSBLIOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSFckOLUEe2p9Kt72W4Ywg" base_Element="_BSBLIOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BSIf4OLUEe2p9Kt72W4Ywg" genericsValue="Auto" base_Element="_BSGDoOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSKVEOLUEe2p9Kt72W4Ywg" base_Element="_BSGDoOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSMKQOLUEe2p9Kt72W4Ywg" base_Element="_BSK8IOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSNYYOLUEe2p9Kt72W4Ywg" base_Element="_BSMxUOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSRCwOLUEe2p9Kt72W4Ywg" base_Element="_BSPNkOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BSUGEOLUEe2p9Kt72W4Ywg" genericsValue="Auto" base_Element="_BSRp0OLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSUtIOLUEe2p9Kt72W4Ywg" base_Element="_BSRp0OLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Generics xmi:id="_BSWiUOLUEe2p9Kt72W4Ywg" genericsValue="Persona" base_Element="_BSVUMOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BSXwcOLUEe2p9Kt72W4Ywg" base_Element="_BSVUMOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BT6BgOLUEe2p9Kt72W4Ywg" base_Element="_BT2XIOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUCkYOLUEe2p9Kt72W4Ywg" base_Element="_BT7PoOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUEZkOLUEe2p9Kt72W4Ywg" base_Element="_BUDLcOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUID8OLUEe2p9Kt72W4Ywg" base_Element="_BUFnsOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUPYsOLUEe2p9Kt72W4Ywg" base_Element="_BUKgMOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUWGYOLUEe2p9Kt72W4Ywg" base_Element="_BUP_wOLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUaX0OLUEe2p9Kt72W4Ywg" base_Element="_BUWGYeLUEe2p9Kt72W4Ywg"/>
+  <UMLLabProfile:Reference xmi:id="_BUbl8OLUEe2p9Kt72W4Ywg" base_Element="_BUaX0eLUEe2p9Kt72W4Ywg"/>
+</xmi:XMI>
