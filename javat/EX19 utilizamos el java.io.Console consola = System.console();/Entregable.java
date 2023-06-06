@@ -1,5 +1,5 @@
 public class Entregable {
-    public static void main(String arara[]) {
+    public static void main(String arara[]) {//v2 pulido
         java.io.Console consola = System.console();
         System.out.print("Introduzca la cantidad de alunmos: ");
         String cantAlumnos = consola.readLine();

@@ -10,7 +10,7 @@ public class PromedioArray{
 		}
 		double d = Double.valueOf(a) /  Double.valueOf(ar.length);
 		if(ar.length != 0)
-				System.out.print("El promedio de los numeros ngresados da como resultado " + d);
+				System.out.print("El promedio de los numeros ingresados da como resultado " + d);
 			else System.out.print("ERROR");
 	}
 }

@@ -1,18 +1,20 @@
-public class UsandoOperadores{
+public class UsandoOperadores {
 
-	public static void main (String arg []){
-		int a = 5;
-		int b = 2;
-		int c =  a +  b;
-		int c2 = a - b;
-		float c3 = (float) a / b;
-		float c4 = (float) a % b;
-		
-		
-		
-		System.out.println ("Sumando " + "el numero " + a + " y el numero " + b + " el resultado es " + c);
-		System.out.println ("Restando " + "el numero " + a + " y el numero " + b + " el resultado es " + c2);
-		System.out.println ("Dividiendo " + "el numero " + a + " y el numero " + b + " el resultado es " + c3);
-		System.out.println ("Modulo " + "el numero " + a + " y el numero " + b + " el resto es " + c4);
+	public static void main(String[] args) {
+		// Declaración e inicialización de variables
+		int numero1 = 5; // Primer número para realizar las operaciones
+		int numero2 = 2; // Segundo número para realizar las operaciones
+
+		// Operaciones aritméticas
+		int suma = numero1 + numero2; // Suma de los dos números
+		int resta = numero1 - numero2; // Resta de los dos números
+		float division = (float) numero1 / numero2; // División de los dos números (con casting a float)
+		float modulo = (float) numero1 % numero2; // Cálculo del módulo de los dos números (con casting a float)
+
+		// Impresión de los resultados
+		System.out.println("Sumando el número " + numero1 + " y el número " + numero2 + ", el resultado es " + suma);
+		System.out.println("Restando el número " + numero1 + " y el número " + numero2 + ", el resultado es " + resta);
+		System.out.println("Dividiendo el número " + numero1 + " entre el número " + numero2 + ", el resultado es " + division);
+		System.out.println("Calculando el módulo del número " + numero1 + " y el número " + numero2 + ", el resto es " + modulo);
 	}
 }

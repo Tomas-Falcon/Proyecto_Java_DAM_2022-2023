@@ -1,26 +1,27 @@
-public class OperadoresDos{
-	public static void main (String ar []){
-		int a = 5;
-		int b = a * 2;
-		int c =- b + 1;
-		int d = 4;
-		int e = a % d;
-		int f = a < b?15:10;
-		int g = 0;
-		String j = "pepito fuma marihuana con manu";
-		boolean x = j instanceof String;
-		while(g <= 2){
-			System.out.println (g);
-			g++;
-			//siempre que g sea menor o igual a 5 se va a sumer un 1 a g
-		}
-		
-		System.out.println ("Es el valor de a " + a);
-		System.out.println ("Es el valor de b " + b);
-		System.out.println ("Es el valor de c " + c);
-		System.out.println ("Es el valor de d " + d);
-		System.out.println ("Es el valor de e " + e);
-		System.out.println ("Es el valor de f " + f);
-		System.out.println ("Es el valor de j " + x);
-	}
+public class OperadoresDos {
+    public static void main(String ar[]) {
+        int numeroA = 5;
+        int numeroB = numeroA * 2;
+        int numeroC = -numeroB + 1;
+        int numeroD = 4;
+        int numeroE = numeroA % numeroD;
+        int numeroF = numeroA < numeroB ? 15 : 10;
+        int numeroG = 0;
+        String textoJ = "pepito pasa el rato con manu";
+        boolean esString = textoJ instanceof String;
+
+        while (numeroG <= 2) {
+            System.out.println(numeroG);
+            numeroG++;
+            // siempre que numeroG sea menor o igual a 5 se va a sumar un 1 a numeroG
+        }
+
+        System.out.println("Es el valor de numeroA: " + numeroA);
+        System.out.println("Es el valor de numeroB: " + numeroB);
+        System.out.println("Es el valor de numeroC: " + numeroC);
+        System.out.println("Es el valor de numeroD: " + numeroD);
+        System.out.println("Es el valor de numeroE: " + numeroE);
+        System.out.println("Es el valor de numeroF: " + numeroF);
+        System.out.println("Es el valor de textoJ: " + esString);
+    }
 }

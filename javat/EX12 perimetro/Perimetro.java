@@ -4,12 +4,13 @@ public class Perimetro{
 		int alto = 3;
 		int x = 0;
 		int y = 0;  
-		
+		String material = "*"; //material de la figura
+		String relleno = " "; //relleno de la figura
 		while(y < alto){
 			while(x < ancho){
 				if ((x == ancho - 1 )|| (x == 0) || (y == 0) || (y == alto -1))
-					System.out.print("*");
-				else System.out.print(" ");
+					System.out.print(material);
+				else System.out.print(relleno);
 				x++;
 			}
 			System.out.println();

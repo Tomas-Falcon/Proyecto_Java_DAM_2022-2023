@@ -4,7 +4,7 @@ public class FormandoUnRectangulo{
 		int alto = 2;
 		int fila = 0;
 		int columna = 0;
-		String numeral = "*"; 
+		String numeral = "*"; //el "material" del rectanfulo
 		
 		while(columna < alto){
 			while(fila < ancho){
